@@ -5,7 +5,7 @@ def index_view(request):
         return render(request, "firstOne/index.html")
 
 def about_view(request):
-        return render(request,'about.html')
+        return render(request,'firstOne/about.html')
 
 def contact_view(request):
-        return render(request,'contact.html')
+        return render(request,'firstOne/contact.html')
