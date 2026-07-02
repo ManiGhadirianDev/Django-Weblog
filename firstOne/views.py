@@ -9,3 +9,5 @@ def about_view(request):
 
 def contact_view(request):
         return render(request,'firstOne/contact.html')
+def test_view(request):
+        return render(request,'firstOne/test.html')
